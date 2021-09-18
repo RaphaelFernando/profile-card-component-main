@@ -1,21 +1,107 @@
-/* Implementing Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
-
-/* Defining Page Font, Font Size and Background Color */
-html, body{
-    font-size: 18px;
-    font-family: 'Kumbh+Sans';
-    background-color: hsl(185, 75%, 39%);
+section:first-of-type {
+    position: relative;
 }
 
-/* Made by */
-.attribution {
-    margin: auto;
-    width: 100%;
-    bottom: 0;
-    position: fixed;
-    font-size: 11px; text-align: center; 
+img:last-of-type {
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translateX(-50%);
+    padding: 0.25rem;
+    background-color: hsl(0, 0%, 100%);
 }
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+
+section:last-of-type {
+    margin-top: 18%;
+}
+
+.top, .bottom {
+    display: flex;
+    align-items: center;
+}
+
+.top {
+    justify-content: center;
+    margin: 0.5rem 0;
+    }
+
+.bottom {
+    justify-content: space-evenly;
+    border-top: 0.05rem solid hsl(0, 0%, 85%);
+    padding: 1.5rem 0;
+    margin-top: 1.5rem;
+}
+
+.status h2, p {
+    margin: 0;
+}
+
+.status p {
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+}
+
+h1, h2 {
+    color: hsl(229, 23%, 23%);
+    font-size: 1.25rem;
+}
+
+h1 {
+    margin: 0 0.5rem 0 0;
+}
+
+span {
+    font-size: 1.25rem;
+}
+
+span {
+    color: hsl(227, 10%, 46%);
+}
+
+footer {
+    font-size: 0.85rem;
+    margin: 0.5rem 1rem 1rem;
+    color: hsl(229, 23%, 23%);
+}
+
+footer p {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+}
+
+.pcard{
+    border-radius: 0.75rem 0.75rem 0px 0px;
+}
+
+img:last-of-type{
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translateX(-50%);
+    padding: 00.25rem;
+    background-color: white;
+}
+
+@media (max-width: 400px) {
+    main {
+        width: 88vw;
+        margin-top: 6vw;
+    }
+
+    img:first-of-type {
+        width: 100%;
+    }
+
+    img:last-of-type {
+        width: 27.5%;
+    }
+
+    footer {
+        margin-bottom: 6vw;
+    }
 }

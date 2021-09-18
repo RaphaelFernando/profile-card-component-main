@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Kumbh Sans";
+
+    background-color: hsl(185, 75%, 39%);
+    color: hsl(0, 0%, 59%);
+
+    background-image: url(https://raw.githubusercontent.com/RaphaelFernando/profile-card-component-main/9a3debda3b09427193b7997603d601404ccbd3f9/images/bg-pattern-top.svg), 
+                      url(https://raw.githubusercontent.com/RaphaelFernando/profile-card-component-main/9a3debda3b09427193b7997603d601404ccbd3f9/images/bg-pattern-bottom.svg);
+                   
+    background-position: right 50vw bottom 40vh, left 50vw top 40vh;
+    background-repeat: no-repeat;
+}
+
+main{
+    width: max-content;
+    height: min-content;
+    
+    margin-top: 1rem;
+
+    border-radius: 0.75rem;
+
+    background-color: white;
+
+}
